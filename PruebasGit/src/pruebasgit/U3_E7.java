@@ -15,13 +15,18 @@ public class U3_E7 {
         int n1 = lector.nextInt();
         System.out.println("Introduzca el segundo numero");
         int n2 = lector.nextInt();
+        int resultado;
         
         if (n1>n2){
-            System.out.println(n2+" "+n1);
+            resultado = n2 - n1;
+            System.out.println(n2+" "+n1+"\n"+n2+" - "+n1+" = "+resultado);
+            
         }
         else {
-            System.out.println(n1+" , "+n2);
+            resultado = n1 - n2;
+            System.out.println(n1+" , "+n1+" - "+n2+" = "+resultado);
         }
+        resultado = n1 * n2;
     }
     
 }
